@@ -1,5 +1,5 @@
-train: C:\Users\TLDX\Desktop\UAV_dataset\images\train
-val: C:\Users\TLDX\Desktop\UAV_dataset\images\val
-test: C:\Users\TLDX\Desktop\UAV_dataset\images\test
+train: ../input/uavdt-dataset/labels/train
+val: ../input/uavdt-dataset/labels/val
+test: ../input/uavdt-dataset/labels/test
 nc: 1
 names: [car]
