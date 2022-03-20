@@ -1,5 +1,5 @@
-train: kaggle/working/yolov5-4.0/input/uavdt-dataset/labels/train
-val: kaggle/working/yolov5-4.0/input/uavdt-dataset/labels/val
-test: kaggle/working/yolov5-4.0/input/uavdt-dataset/labels/test
+train: /kaggle/working/yolov5-4.0/input/uavdt-dataset/labels/train
+val: /kaggle/working/yolov5-4.0/input/uavdt-dataset/labels/val
+test: /kaggle/working/yolov5-4.0/input/uavdt-dataset/labels/test
 nc: 1
 names: [car]
