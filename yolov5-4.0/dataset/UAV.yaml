@@ -1,5 +1,5 @@
-train: /kaggle/input/uavdt-dataset/images/train
-val: /kaggle/input/uavdt-dataset/images/val
-test: /kaggle/input/uavdt-dataset/images/test
+train: /kaggle/input/uav-dataset/images/train
+val: /kaggle/input/uav-dataset/images/val
+test: /kaggle/input/uav-dataset/images/test
 nc: 1
 names: [car]
