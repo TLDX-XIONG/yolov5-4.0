@@ -1,5 +1,5 @@
-train: /kaggle/input/uavdt-dataset/labels/train
-val: /kaggle/input/uavdt-dataset/labels/val
-test: /kaggle/input/uavdt-dataset/labels/test
+train: /kaggle/input/uavdt-dataset/images/train
+val: /kaggle/input/uavdt-dataset/images/val
+test: /kaggle/input/uavdt-dataset/images/test
 nc: 1
 names: [car]
