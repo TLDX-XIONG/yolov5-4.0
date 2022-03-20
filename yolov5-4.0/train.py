@@ -503,7 +503,7 @@ if __name__ == '__main__':
     parser.add_argument('--local_rank', type=int, default=-1, help='DDP parameter, do not modify')
     parser.add_argument('--log-imgs', type=int, default=16, help='number of images for W&B logging, max 100')
     parser.add_argument('--log-artifacts', action='store_true', help='log artifacts, i.e. final trained model')
-    parser.add_argument('--workers', type=int, default=0, help='maximum number of dataloader workers') # 进程数
+    parser.add_argument('--workers', type=int, default=8, help='maximum number of dataloader workers') # 进程数
     parser.add_argument('--project', default='runs/train', help='save to project/name') # 保存输出文件路径
     parser.add_argument('--name', default='exp', help='save to project/name') # 保存输出文件文件夹名称
     parser.add_argument('--exist-ok', action='store_true', help='existing project/name ok, do not increment')
