@@ -485,7 +485,7 @@ if __name__ == '__main__':
     parser.add_argument('--weights', type=str, default='weights/yolov5s.pt', help='initial weights path') # 模型训练权重
     parser.add_argument('--cfg', type=str, default='models/yolov5s.yaml', help='model.yaml path') # 模型配置信息
     parser.add_argument('--data', type=str, default='dataset/UAV.yaml', help='data.yaml path') # 数据集配置信息
-    parser.add_argument('--hyp', type=str, default='data/hyp.scratch.yaml', help='hyperparameters path') # 超参数配置信息
+    parser.add_argument('--hyp', type=str, default='dataset/hyp.scratch.yaml', help='hyperparameters path') # 超参数配置信息
     parser.add_argument('--epochs', type=int, default=100) # epoch 次数
     parser.add_argument('--batch-size', type=int, default=16 , help='total batch size for all GPUs') # batchsize 大小
     parser.add_argument('--img-size', nargs='+', type=int, default=[960,640], help='[train, test] image sizes') # 缩放后要训练的图像大小
